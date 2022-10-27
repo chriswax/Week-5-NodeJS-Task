@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+:root{
+    --background-color:tan;
+}
+
+ul{
+    background-color: #333; 
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+li a:hover:not(active){
+    background-color: #111;
+}
+.active{
+    background-color:blueviolet;
+}
+.bar{
+    font-size: 20px;
+    margin-right: 300px;
+}
+.nav{
+    padding: 0 100px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .panel{
+    background-color:lightgray;
+    width: 60%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px auto;
+  }
+  div{
+    padding: 5px;
+  }
+ .btn{
+    background-color: black;
+    border: 2px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0 2px #000000;
+    text-align: center;
+    text-decoration: none;
+
+ }
+ 
+ h1{
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+ }
+ label{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+ }
+ input, textarea, select{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 15px;
+    margin: 10px, 0;
+    font-size: 18px;
+    border-radius: 5px;
+
+ }
+ .pix{
+    width: 200px;
+    height: 200px;
+    border: 2px purple dashed;
+   padding: 10px;
+   margin: 10px;
+
+ }
+ main{
+    padding: 50px;
+ }
+ section{
+    margin: 35px;
+    padding: 20px;
+    border: 1px #000000 solid;
+    background-color: var(--background-color);
+    color: white;
+ }
+ p{
+    font-size: 18px;
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+ }
